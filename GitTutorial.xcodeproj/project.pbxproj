@@ -16,6 +16,7 @@
 		8598014326382CF900CDAF1F /* gitconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8598014126382CF900CDAF1F /* gitconfig */; };
 		8598014426382CF900CDAF1F /* SimpleDefaultCommands in Resources */ = {isa = PBXBuildFile; fileRef = 8598014226382CF900CDAF1F /* SimpleDefaultCommands */; };
 		8598014726382D1300CDAF1F /* Rebase in Resources */ = {isa = PBXBuildFile; fileRef = 8598014626382D1300CDAF1F /* Rebase */; };
+		8598014B2638313900CDAF1F /* DS_Store in Resources */ = {isa = PBXBuildFile; fileRef = 8598014A2638313900CDAF1F /* DS_Store */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8598014126382CF900CDAF1F /* gitconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gitconfig; sourceTree = "<group>"; };
 		8598014226382CF900CDAF1F /* SimpleDefaultCommands */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleDefaultCommands; sourceTree = "<group>"; };
 		8598014626382D1300CDAF1F /* Rebase */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rebase; sourceTree = "<group>"; };
+		8598014A2638313900CDAF1F /* DS_Store */ = {isa = PBXFileReference; lastKnownFileType = text; path = DS_Store; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				8598013A26382CC600CDAF1F /* Info.plist */,
 				8598014626382D1300CDAF1F /* Rebase */,
 				8598014226382CF900CDAF1F /* SimpleDefaultCommands */,
+				8598014A2638313900CDAF1F /* DS_Store */,
 			);
 			path = GitTutorial;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 				8598013426382CC300CDAF1F /* Main.storyboard in Resources */,
 				8598014426382CF900CDAF1F /* SimpleDefaultCommands in Resources */,
 				8598014326382CF900CDAF1F /* gitconfig in Resources */,
+				8598014B2638313900CDAF1F /* DS_Store in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
