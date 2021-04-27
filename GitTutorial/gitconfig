@@ -1,0 +1,21 @@
+
+[user]
+    email = yaremdennis@gmail.com
+    name = Denis Yaremenko
+[core]
+    editor = open -W -n
+[alias]
+    fuck = log --all --oneline
+    suck = log --all --graph --decorate --oneline
+[diff]
+    tool = p4merge
+[difftool "p4merge"]
+    path = /Applications/p4merge.app/Contents/MacOS/p4merge
+[difftool]
+    prompt = false
+[merge]
+    tool = p4merge
+[mergetool "p4merge"]
+    path = /Applications/p4merge.app/Contents/MacOS/p4merge
+[mergetool]
+    prompt = false

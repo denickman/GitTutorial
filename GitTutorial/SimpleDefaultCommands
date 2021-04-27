@@ -1,0 +1,116 @@
+
+ls -la // show all the file including hidden ones
+
+git status
+git add .
+git commit -m "Some commit"
+git commit -am "Some commit with add feature"
+rm -rf .git // remove all traces of .git project
+
+// Connect local repo with git
+git remote add origin git@github.com:denickman/GitTutorial.git
+git push -u origin master
+
+// Delete last commit
+git reset --hard HEAD~1 // where ~n - number of commit
+git push force
+
+// How to open .gitconfig global
+open ~/.gitconfig
+
+// How to change text editor for editing files
+git config --global core.editor your_text_editor_name
+
+git config --global alias.hist "log --oneline" // hist - is any word you want
+
+git pull origin master // must do this before push your changes!!!!
+git push origin master
+
+git ls-files // show all the tracked files
+
+// How to move changes from staging area to the working directory
+git reset HEAD file.txt // changes will remain
+
+// How to remove all the changes from the file
+git checkout -- file.txt
+
+
+// How to delete / remove file
+git rm file.txt // File MUST BE tracked
+rm file.txt // if file is not tracked
+
+// How to log
+
+git log
+
+commit 75851c62a3d79bdabcef9b47d41549ef9336cd66 (HEAD -> master)
+Author: Denis Yaremenko <yaremdennis@gmail.com>
+Date:   Mon Apr 26 12:06:08 2021 +0300
+Update commands 4
+
+git log --abbrev-commit
+
+commit 75851c6 (HEAD -> master)
+Author: Denis Yaremenko <yaremdennis@gmail.com>
+Date:   Mon Apr 26 12:06:08 2021 +0300
+Update commands 4
+
+git log --oneline --graph --decorate
+
+* 75851c6 (HEAD -> master) Update commands 4
+* 0da8748 (origin/master, origin/HEAD) Add gitignore
+* 4d950c8 Update commands 3
+* 1bfc5e6 Update commands
+* be911dd Update commands
+* 0eac1d2 Initial commit
+
+git log --oneline --graph --decorate --all
+
+git log 75851c6...be911dd // show you 5 last commits
+
+git log --since="3 days ago" // show you 3 days ago commits
+
+git show 75851c6
+
+
+// How to diff
+
+git diff // changes between working directory and staging area
+
+git difftool
+
+git diff HEAD / git difftool HEAD // show changes between current working directory and the last commit on that branch
+
+git diff --staged HEAD // diff between git repo and staging area
+
+git log --oneline
+
+git diff ae5f324 HEAD // commit of history and pointer of HEAD (last commit)
+
+git diff HEAD HEAD^ // HEAD and HEAD - 1 (previous) commit
+
+git diff ae3l405 b12c23
+
+git diff master origin/master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
