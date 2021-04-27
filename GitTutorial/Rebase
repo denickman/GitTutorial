@@ -18,3 +18,9 @@ git rebase --continue
 
 git commit -am "Adding changes after rebasing conflicts"
 
+git checkout master
+
+git merge feature
+
+
+
