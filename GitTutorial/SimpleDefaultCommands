@@ -1,6 +1,10 @@
 
 ls -la // show all the file including hidden ones
 
+git rm --cached [project].xcodeproj/project.xcworkspace/xcuserdata/[username].xcuserdatad/UserInterfaceState.xcuserstate
+git commit -m "Removed file that shouldn't be tracked"
+
+
 git status
 git add .
 git commit -m "Some commit"
