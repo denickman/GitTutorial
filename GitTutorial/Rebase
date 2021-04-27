@@ -1,6 +1,20 @@
 
-rebase on feature
-Rebase on feature once again
 
-Rebase on masterbranch before rebase conflicts 2
+
+git checkout -b feature
+make changes in feature
+
+git checkout master
+make changes in master
+
+git checkout feature
+git rebase master
+
+git difftool // resolve conflicts
+
+git add name_of_changed_file
+
+git rebase --continue
+
+git commit -am "Adding changes after rebasing conflicts"
 
