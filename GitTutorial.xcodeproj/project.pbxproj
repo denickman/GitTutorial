@@ -63,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				8598014126382CF900CDAF1F /* gitconfig */,
-				8598014226382CF900CDAF1F /* SimpleDefaultCommands */,
 				8598012C26382CC300CDAF1F /* AppDelegate.swift */,
 				8598012E26382CC300CDAF1F /* SceneDelegate.swift */,
 				8598013026382CC300CDAF1F /* ViewController.swift */,
@@ -72,6 +71,7 @@
 				8598013726382CC600CDAF1F /* LaunchScreen.storyboard */,
 				8598013A26382CC600CDAF1F /* Info.plist */,
 				8598014626382D1300CDAF1F /* Rebase */,
+				8598014226382CF900CDAF1F /* SimpleDefaultCommands */,
 			);
 			path = GitTutorial;
 			sourceTree = "<group>";
