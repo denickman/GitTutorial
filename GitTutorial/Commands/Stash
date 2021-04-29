@@ -31,4 +31,10 @@ git stash apply stash@{1} // apply this stash
 
 git stash drop stash@{1} // drop this stash
 
-git stash clear // remove all the stashes 
+git stash clear // remove all the stashes
+
+git stash branch newbranch
+// 1 - create new branch newbranch
+// 2 - switched ot this branch
+// 3 - apply stash
+// 4 - remove stash
