@@ -2,7 +2,9 @@
 // Stash
 
 git stash // remove all the changes from updated files
-// will only stash tracked files
+// will only stash tracked files !!!!
+
+git stash -u // also remove all the changes in untracked / tracked files
 
 git stash apply // return stashed changed to the files
 
@@ -12,6 +14,8 @@ stash@{0}: WIP on master: ce7a4be Update project folders
 git stash drop // drop the last stash in the list
 
 git ls-files // will show all the tracked git repository files
+
+git stash pop // git stash apply + git stash drop
 
 
 
