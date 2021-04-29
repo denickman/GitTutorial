@@ -1,4 +1,6 @@
 
 // Stash
 
+git stash // remove all the changes from updated files
+
 
