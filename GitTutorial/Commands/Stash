@@ -1,10 +1,10 @@
 
 // Stash
 
-git stash // remove all the changes from updated files
+git stash // save all the changes from updated files
 // will only stash tracked files !!!!
 
-git stash -u // also remove all the changes in untracked / tracked files
+git stash -u // also save all the changes in ALL files
 
 git stash apply // return stashed changed to the files
 
