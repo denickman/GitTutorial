@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		852B955D263B072E0080229F /* Stash in Resources */ = {isa = PBXBuildFile; fileRef = 852B955C263B072E0080229F /* Stash */; };
 		8598012D26382CC300CDAF1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598012C26382CC300CDAF1F /* AppDelegate.swift */; };
 		8598012F26382CC300CDAF1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598012E26382CC300CDAF1F /* SceneDelegate.swift */; };
 		8598013126382CC300CDAF1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598013026382CC300CDAF1F /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		852B955C263B072E0080229F /* Stash */ = {isa = PBXFileReference; lastKnownFileType = text; path = Stash; sourceTree = "<group>"; };
 		8598012926382CC300CDAF1F /* GitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8598012C26382CC300CDAF1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8598012E26382CC300CDAF1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		852B9560263B07350080229F /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				8598014A2638313900CDAF1F /* DS_Store */,
+				8598014126382CF900CDAF1F /* gitconfig */,
+			);
+			path = Git;
+			sourceTree = "<group>";
+		};
+		852B9562263B07400080229F /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				8598014226382CF900CDAF1F /* SimpleDefaultCommands */,
+				8598014626382D1300CDAF1F /* Rebase */,
+				852B955C263B072E0080229F /* Stash */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
 		8598012026382CC300CDAF1F = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +85,8 @@
 		8598012B26382CC300CDAF1F /* GitTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				8598014126382CF900CDAF1F /* gitconfig */,
+				852B9562263B07400080229F /* Commands */,
+				852B9560263B07350080229F /* Git */,
 				8598012C26382CC300CDAF1F /* AppDelegate.swift */,
 				8598012E26382CC300CDAF1F /* SceneDelegate.swift */,
 				8598013026382CC300CDAF1F /* ViewController.swift */,
@@ -72,9 +94,6 @@
 				8598013526382CC600CDAF1F /* Assets.xcassets */,
 				8598013726382CC600CDAF1F /* LaunchScreen.storyboard */,
 				8598013A26382CC600CDAF1F /* Info.plist */,
-				8598014626382D1300CDAF1F /* Rebase */,
-				8598014226382CF900CDAF1F /* SimpleDefaultCommands */,
-				8598014A2638313900CDAF1F /* DS_Store */,
 			);
 			path = GitTutorial;
 			sourceTree = "<group>";
@@ -136,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852B955D263B072E0080229F /* Stash in Resources */,
 				8598013926382CC600CDAF1F /* LaunchScreen.storyboard in Resources */,
 				8598013626382CC600CDAF1F /* Assets.xcassets in Resources */,
 				8598014726382D1300CDAF1F /* Rebase in Resources */,
