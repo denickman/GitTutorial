@@ -3,4 +3,13 @@
 
 git stash // remove all the changes from updated files
 
+git stash apply // return stashed changed to the files
+
+git stash list // will show you the list of stashes
+stash@{0}: WIP on master: ce7a4be Update project folders
+
+git stash drop // drop the last stash in the list
+
+
+
 
