@@ -17,5 +17,18 @@ git ls-files // will show all the tracked git repository files
 
 git stash pop // git stash apply + git stash drop
 
+git stash save "simple changes 01"
+git stash save "simple changes 02"
 
+git stash list // will show you this
 
+stash@{0}: On master: simple changes 02
+stash@{1}: On master: simple changes 01
+
+git stash show stash@{0} // will show changes in that stash
+
+git stash apply stash@{1} // apply this stash
+
+git stash drop stash@{1} // drop this stash
+
+git stash clear // remove all the stashes 
