@@ -1,0 +1,16 @@
+
+
+git tag myTag // add lightweight tag - it is just a simple market of commit
+
+git tag --list // show all the tags
+
+git show myTag // show myTag details
+
+git tag --delete myTag // delete current tag
+
+
+// annotated tag - lightweight tag with some extra information
+
+git tag -a v-1.0
+
+
