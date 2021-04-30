@@ -9,6 +9,8 @@ git status
 git add .
 git commit -m "Some commit"
 git commit -am "Some commit with add feature"
+git commit --amend // Edit title of commit
+
 rm -rf .git // remove all traces of .git project
 
 // Connect local repo with git

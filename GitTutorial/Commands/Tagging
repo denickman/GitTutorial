@@ -13,4 +13,18 @@ git tag --delete myTag // delete current tag
 
 git tag -a v-1.0
 
+git tag v-1.1 -m "Release 1.1"
+
+git diff v-1.0 v-1.2 // show difference between two tags
+
+git difftool v-1.0 v-1.2 // show difftool
+
+git tag -a v-0.9-beta ec4c516 // add tag to special commit
+
+git push origin v-1.0 // push tag to remote repo
+
+git push origin master --tags // sync all tags on master branch
+
+git push origin :v-1.0 // remove remote tag 
+
 
