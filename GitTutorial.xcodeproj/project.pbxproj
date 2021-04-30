@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		852B955D263B072E0080229F /* Stash in Resources */ = {isa = PBXBuildFile; fileRef = 852B955C263B072E0080229F /* Stash */; };
 		852B956D263B13170080229F /* testfile in Resources */ = {isa = PBXBuildFile; fileRef = 852B956C263B13170080229F /* testfile */; };
+		852B9570263BE6340080229F /* Tagging in Resources */ = {isa = PBXBuildFile; fileRef = 852B956F263BE6330080229F /* Tagging */; };
 		8598012D26382CC300CDAF1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598012C26382CC300CDAF1F /* AppDelegate.swift */; };
 		8598012F26382CC300CDAF1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598012E26382CC300CDAF1F /* SceneDelegate.swift */; };
 		8598013126382CC300CDAF1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598013026382CC300CDAF1F /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		852B955C263B072E0080229F /* Stash */ = {isa = PBXFileReference; lastKnownFileType = text; path = Stash; sourceTree = "<group>"; };
 		852B956C263B13170080229F /* testfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = testfile; sourceTree = "<group>"; };
+		852B956F263BE6330080229F /* Tagging */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tagging; sourceTree = "<group>"; };
 		8598012926382CC300CDAF1F /* GitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8598012C26382CC300CDAF1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8598012E26382CC300CDAF1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				8598014226382CF900CDAF1F /* SimpleDefaultCommands */,
 				8598014626382D1300CDAF1F /* Rebase */,
 				852B955C263B072E0080229F /* Stash */,
+				852B956F263BE6330080229F /* Tagging */,
 				852B956C263B13170080229F /* testfile */,
 			);
 			path = Commands;
@@ -158,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852B9570263BE6340080229F /* Tagging in Resources */,
 				852B956D263B13170080229F /* testfile in Resources */,
 				852B955D263B072E0080229F /* Stash in Resources */,
 				8598013926382CC600CDAF1F /* LaunchScreen.storyboard in Resources */,
