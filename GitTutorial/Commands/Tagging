@@ -1,4 +1,5 @@
 
+// Tagging
 
 git tag myTag // add lightweight tag - it is just a simple market of commit
 
