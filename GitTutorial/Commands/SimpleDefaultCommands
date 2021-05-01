@@ -19,6 +19,7 @@ git push -u origin master
 
 // Delete last commit
 git reset --hard HEAD~1 // where ~n - number of commit
+git reset HEAD^1 // uncommit last commit but save changes
 git push force
 
 // How to open .gitconfig global
