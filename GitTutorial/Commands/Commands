@@ -1,4 +1,5 @@
 
+
 ls -la // show all the file including hidden ones
 
 git rm --cached [project].xcodeproj/project.xcworkspace/xcuserdata/[username].xcuserdatad/UserInterfaceState.xcuserstate
