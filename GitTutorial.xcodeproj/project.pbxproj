@@ -22,7 +22,7 @@
 		8598013626382CC600CDAF1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8598013526382CC600CDAF1F /* Assets.xcassets */; };
 		8598013926382CC600CDAF1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8598013726382CC600CDAF1F /* LaunchScreen.storyboard */; };
 		8598014326382CF900CDAF1F /* gitconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8598014126382CF900CDAF1F /* gitconfig */; };
-		8598014426382CF900CDAF1F /* SimpleDefaultCommands in Resources */ = {isa = PBXBuildFile; fileRef = 8598014226382CF900CDAF1F /* SimpleDefaultCommands */; };
+		8598014426382CF900CDAF1F /* Commands in Resources */ = {isa = PBXBuildFile; fileRef = 8598014226382CF900CDAF1F /* Commands */; };
 		8598014726382D1300CDAF1F /* Rebase in Resources */ = {isa = PBXBuildFile; fileRef = 8598014626382D1300CDAF1F /* Rebase */; };
 		8598014B2638313900CDAF1F /* DS_Store in Resources */ = {isa = PBXBuildFile; fileRef = 8598014A2638313900CDAF1F /* DS_Store */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,7 @@
 		8598013826382CC600CDAF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8598013A26382CC600CDAF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8598014126382CF900CDAF1F /* gitconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gitconfig; sourceTree = "<group>"; };
-		8598014226382CF900CDAF1F /* SimpleDefaultCommands */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleDefaultCommands; sourceTree = "<group>"; };
+		8598014226382CF900CDAF1F /* Commands */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Commands; sourceTree = "<group>"; };
 		8598014626382D1300CDAF1F /* Rebase */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rebase; sourceTree = "<group>"; };
 		8598014A2638313900CDAF1F /* DS_Store */ = {isa = PBXFileReference; lastKnownFileType = text; path = DS_Store; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +73,7 @@
 		852B9562263B07400080229F /* Commands */ = {
 			isa = PBXGroup;
 			children = (
-				8598014226382CF900CDAF1F /* SimpleDefaultCommands */,
+				8598014226382CF900CDAF1F /* Commands */,
 				8598014626382D1300CDAF1F /* Rebase */,
 				852B955C263B072E0080229F /* Stash */,
 				852B956F263BE6330080229F /* Tagging */,
@@ -187,7 +187,7 @@
 				8598014726382D1300CDAF1F /* Rebase in Resources */,
 				8598013426382CC300CDAF1F /* Main.storyboard in Resources */,
 				852B958F263C5A460080229F /* 10_Stashing.pdf in Resources */,
-				8598014426382CF900CDAF1F /* SimpleDefaultCommands in Resources */,
+				8598014426382CF900CDAF1F /* Commands in Resources */,
 				8598014326382CF900CDAF1F /* gitconfig in Resources */,
 				8598014B2638313900CDAF1F /* DS_Store in Resources */,
 				852B958D263C5A460080229F /* 05_MergeToolInstall.pdf in Resources */,
