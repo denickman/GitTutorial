@@ -22,15 +22,9 @@ git reset --hard HEAD~1
 git reset HEAD^1
 // uncommit last commit but save changes
 
+git reset e23b235 // reset to the special commit
+
 git push force
-
-// How to open .gitconfig global
-open ~/.gitconfig
-
-// How to change text editor for editing files
-git config --global core.editor your_text_editor_name
-
-git config --global alias.hist "log --oneline" // hist - is any word you want
 
 git pull origin master // must do this before push your changes!!!!
 git push origin master

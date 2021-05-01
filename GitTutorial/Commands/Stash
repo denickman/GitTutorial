@@ -1,6 +1,8 @@
 
 // Stash
 
+git help stash // show you all the documentation regarding stash
+
 git stash // save all the changes from updated files
 // will only stash tracked files !!!!
 

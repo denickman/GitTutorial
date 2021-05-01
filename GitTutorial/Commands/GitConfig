@@ -1,0 +1,16 @@
+
+
+
+// How to open .gitconfig global
+open ~/.gitconfig
+
+// How to change text editor for editing files
+git config --global core.editor your_text_editor_name
+git config --global alias.hist "log --oneline" // hist - is any word you want
+
+
+// How to set default user info settings
+
+git config --global user.email "yaremdennis@gmail.com"
+git config --global user.name "Den"
+

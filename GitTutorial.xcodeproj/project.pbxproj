@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		852B955D263B072E0080229F /* Stash in Resources */ = {isa = PBXBuildFile; fileRef = 852B955C263B072E0080229F /* Stash */; };
-		852B956D263B13170080229F /* testfile in Resources */ = {isa = PBXBuildFile; fileRef = 852B956C263B13170080229F /* testfile */; };
+		852B956D263B13170080229F /* GitConfig in Resources */ = {isa = PBXBuildFile; fileRef = 852B956C263B13170080229F /* GitConfig */; };
 		852B9570263BE6340080229F /* Tagging in Resources */ = {isa = PBXBuildFile; fileRef = 852B956F263BE6330080229F /* Tagging */; };
 		852B958D263C5A460080229F /* 05_MergeToolInstall.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 852B9589263C5A460080229F /* 05_MergeToolInstall.pdf */; };
 		852B958E263C5A460080229F /* 04_BasicWorkflow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 852B958A263C5A460080229F /* 04_BasicWorkflow.pdf */; };
 		852B958F263C5A460080229F /* 10_Stashing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 852B958B263C5A460080229F /* 10_Stashing.pdf */; };
 		852B9590263C5A460080229F /* 11_Tagging.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 852B958C263C5A460080229F /* 11_Tagging.pdf */; };
+		852B9593263D5AD90080229F /* CherryPick in Resources */ = {isa = PBXBuildFile; fileRef = 852B9592263D5AD90080229F /* CherryPick */; };
 		8598012D26382CC300CDAF1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598012C26382CC300CDAF1F /* AppDelegate.swift */; };
 		8598012F26382CC300CDAF1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598012E26382CC300CDAF1F /* SceneDelegate.swift */; };
 		8598013126382CC300CDAF1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598013026382CC300CDAF1F /* ViewController.swift */; };
@@ -28,12 +29,13 @@
 
 /* Begin PBXFileReference section */
 		852B955C263B072E0080229F /* Stash */ = {isa = PBXFileReference; lastKnownFileType = text; path = Stash; sourceTree = "<group>"; };
-		852B956C263B13170080229F /* testfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = testfile; sourceTree = "<group>"; };
+		852B956C263B13170080229F /* GitConfig */ = {isa = PBXFileReference; lastKnownFileType = text; path = GitConfig; sourceTree = "<group>"; };
 		852B956F263BE6330080229F /* Tagging */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tagging; sourceTree = "<group>"; };
 		852B9589263C5A460080229F /* 05_MergeToolInstall.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 05_MergeToolInstall.pdf; sourceTree = "<group>"; };
 		852B958A263C5A460080229F /* 04_BasicWorkflow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 04_BasicWorkflow.pdf; sourceTree = "<group>"; };
 		852B958B263C5A460080229F /* 10_Stashing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 10_Stashing.pdf; sourceTree = "<group>"; };
 		852B958C263C5A460080229F /* 11_Tagging.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11_Tagging.pdf; sourceTree = "<group>"; };
+		852B9592263D5AD90080229F /* CherryPick */ = {isa = PBXFileReference; lastKnownFileType = text; path = CherryPick; sourceTree = "<group>"; };
 		8598012926382CC300CDAF1F /* GitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8598012C26382CC300CDAF1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8598012E26382CC300CDAF1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +77,8 @@
 				8598014626382D1300CDAF1F /* Rebase */,
 				852B955C263B072E0080229F /* Stash */,
 				852B956F263BE6330080229F /* Tagging */,
-				852B956C263B13170080229F /* testfile */,
+				852B956C263B13170080229F /* GitConfig */,
+				852B9592263D5AD90080229F /* CherryPick */,
 			);
 			path = Commands;
 			sourceTree = "<group>";
@@ -175,7 +178,8 @@
 			files = (
 				852B9590263C5A460080229F /* 11_Tagging.pdf in Resources */,
 				852B9570263BE6340080229F /* Tagging in Resources */,
-				852B956D263B13170080229F /* testfile in Resources */,
+				852B956D263B13170080229F /* GitConfig in Resources */,
+				852B9593263D5AD90080229F /* CherryPick in Resources */,
 				852B955D263B072E0080229F /* Stash in Resources */,
 				8598013926382CC600CDAF1F /* LaunchScreen.storyboard in Resources */,
 				852B958E263C5A460080229F /* 04_BasicWorkflow.pdf in Resources */,
