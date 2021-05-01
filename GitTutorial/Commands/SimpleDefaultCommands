@@ -4,7 +4,6 @@ ls -la // show all the file including hidden ones
 git rm --cached [project].xcodeproj/project.xcworkspace/xcuserdata/[username].xcuserdatad/UserInterfaceState.xcuserstate
 git commit -m "Removed file that shouldn't be tracked"
 
-
 git status
 git add .
 git commit -m "Some commit"
@@ -17,9 +16,12 @@ rm -rf .git // remove all traces of .git project
 git remote add origin git@github.com:denickman/GitTutorial.git
 git push -u origin master
 
-// Delete last commit
-git reset --hard HEAD~1 // where ~n - number of commit
-git reset HEAD^1 // uncommit last commit but save changes
+git reset --hard HEAD~1
+// uncommit last commit and erase changes, where ~n - number of commit
+
+git reset HEAD^1
+// uncommit last commit but save changes
+
 git push force
 
 // How to open .gitconfig global
