@@ -23,3 +23,14 @@ git checkout master
 git merge feature
 
 
+REBASE
+git rebase master // currently on newFeature branch
+git rebase --abort // restore without rebase branches/initial state
+git rebase --continue // continue after resolve conflicts
+git merge bigtrouble // on master branch and merge after rebasing
+
+git fetch origin master
+git pull --rebase origin master
+
+
+

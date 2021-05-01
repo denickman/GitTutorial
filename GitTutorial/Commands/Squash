@@ -1,0 +1,21 @@
+
+
+How to make git rebase (squash)
+1 git log --oneline
+2 git rebase -i <hash of commit to which you want the squash to occur>
+OR
+git rebase -i HEAD~<number of commits down from your HEAD>
+3 press Ctrl + \ (this will activate ‘search and replace’ functionality
+4 Search (to replace): ← input ‘pick’ without quotes, press Enter
+5 Replace with ← input ‘s’ without quotes, press Enter
+6 Press a
+7 Change ‘s’ for the very first commit to ‘p’
+8 Ctrl + x
+9 Press y
+10 Enter
+11 Ctrl + k as many times as needed to remove unneeded comments and make sure only one git comment is left
+12 Ctrl + x
+13 Press y
+14 Enter
+15 git push --force
+

@@ -14,3 +14,13 @@ git config --global alias.hist "log --oneline" // hist - is any word you want
 git config --global user.email "yaremdennis@gmail.com"
 git config --global user.name "Den"
 
+git config --global --list  // show all settings in git config file
+
+git config --global alias.fuck "log --all --graph --decorate --oneline" // add this line to global gitconfig file
+
+open ~/.gitconfig
+
+
+
+
+

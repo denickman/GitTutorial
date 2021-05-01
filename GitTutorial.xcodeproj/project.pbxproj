@@ -15,6 +15,8 @@
 		852B958F263C5A460080229F /* 10_Stashing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 852B958B263C5A460080229F /* 10_Stashing.pdf */; };
 		852B9590263C5A460080229F /* 11_Tagging.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 852B958C263C5A460080229F /* 11_Tagging.pdf */; };
 		852B9593263D5AD90080229F /* CherryPick in Resources */ = {isa = PBXBuildFile; fileRef = 852B9592263D5AD90080229F /* CherryPick */; };
+		858AF384263DDE7800B59FC9 /* Squash in Resources */ = {isa = PBXBuildFile; fileRef = 858AF383263DDE7800B59FC9 /* Squash */; };
+		858AF387263DDF8300B59FC9 /* p4merge in Resources */ = {isa = PBXBuildFile; fileRef = 858AF386263DDF8300B59FC9 /* p4merge */; };
 		8598012D26382CC300CDAF1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598012C26382CC300CDAF1F /* AppDelegate.swift */; };
 		8598012F26382CC300CDAF1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598012E26382CC300CDAF1F /* SceneDelegate.swift */; };
 		8598013126382CC300CDAF1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598013026382CC300CDAF1F /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 		852B958B263C5A460080229F /* 10_Stashing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 10_Stashing.pdf; sourceTree = "<group>"; };
 		852B958C263C5A460080229F /* 11_Tagging.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11_Tagging.pdf; sourceTree = "<group>"; };
 		852B9592263D5AD90080229F /* CherryPick */ = {isa = PBXFileReference; lastKnownFileType = text; path = CherryPick; sourceTree = "<group>"; };
+		858AF383263DDE7800B59FC9 /* Squash */ = {isa = PBXFileReference; lastKnownFileType = text; path = Squash; sourceTree = "<group>"; };
+		858AF386263DDF8300B59FC9 /* p4merge */ = {isa = PBXFileReference; lastKnownFileType = text; path = p4merge; sourceTree = "<group>"; };
 		8598012926382CC300CDAF1F /* GitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8598012C26382CC300CDAF1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8598012E26382CC300CDAF1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				852B956F263BE6330080229F /* Tagging */,
 				852B956C263B13170080229F /* GitConfig */,
 				852B9592263D5AD90080229F /* CherryPick */,
+				858AF383263DDE7800B59FC9 /* Squash */,
+				858AF386263DDF8300B59FC9 /* p4merge */,
 			);
 			path = Commands;
 			sourceTree = "<group>";
@@ -183,10 +189,12 @@
 				852B955D263B072E0080229F /* Stash in Resources */,
 				8598013926382CC600CDAF1F /* LaunchScreen.storyboard in Resources */,
 				852B958E263C5A460080229F /* 04_BasicWorkflow.pdf in Resources */,
+				858AF387263DDF8300B59FC9 /* p4merge in Resources */,
 				8598013626382CC600CDAF1F /* Assets.xcassets in Resources */,
 				8598014726382D1300CDAF1F /* Rebase in Resources */,
 				8598013426382CC300CDAF1F /* Main.storyboard in Resources */,
 				852B958F263C5A460080229F /* 10_Stashing.pdf in Resources */,
+				858AF384263DDE7800B59FC9 /* Squash in Resources */,
 				8598014426382CF900CDAF1F /* Commands in Resources */,
 				8598014326382CF900CDAF1F /* gitconfig in Resources */,
 				8598014B2638313900CDAF1F /* DS_Store in Resources */,

@@ -22,6 +22,7 @@ git reset --hard HEAD~1
 // uncommit last commit and erase changes, where ~n - number of commit
 
 git reset HEAD^1
+git reset HEAD^1 == git reset HEAD^
 // uncommit last commit but save changes
 
 git reset e23b235 // reset to the special commit
@@ -33,6 +34,16 @@ git push origin master
 
 git ls-files // show all the tracked files
 
+git restore file_name - revert changes in file
+git restore . - revert changes in all files before commit
+
+git push -u origin main  - u // flag is for using remote origin
+git push -u origin dev
+
+git remote add origin https://github.com/denickman/CICDiOS
+git push -u origin main
+
+
 // How to move changes from staging area to the working directory
 git reset HEAD file.txt // changes will remain
 
@@ -43,6 +54,10 @@ git checkout -- file.txt
 // How to delete / remove file
 git rm file.txt // File MUST BE tracked
 rm file.txt // if file is not tracked
+
+git rm -f Mary.swift // git rm Mary.swift
+// remove not tracked file
+
 
 // How to log
 
@@ -97,6 +112,9 @@ git diff HEAD HEAD^ // HEAD and HEAD - 1 (previous) commit
 git diff ae3l405 b12c23
 
 git diff master origin/master
+
+
+git merge simple-changes -m "With MASSAGE" // you on master branch and it has some changes, you want to merge simple-changes branch and after merge changes from simple-changes (commit) will be after master branch
 
 
 
