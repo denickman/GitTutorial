@@ -1,10 +1,20 @@
 
 // Simple commands
 
+// Rename branch locally and after push
+git commit --amend -m "New commit message"
+git push --force // if already pushed
+
 ls -la // show all the file including hidden ones
 
 git rm --cached [project].xcodeproj/project.xcworkspace/xcuserdata/[username].xcuserdatad/UserInterfaceState.xcuserstate
 git commit -m "Removed file that shouldn't be tracked"
+
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
 
 git status
 git add .
@@ -20,6 +30,8 @@ git push -u origin master
 
 git reset --hard HEAD~1
 // uncommit last commit and erase changes, where ~n - number of commit
+
+git reset --soft HEAD~1 // uncommit last commit but save changes
 
 git reset HEAD^1
 git reset HEAD^1 == git reset HEAD^

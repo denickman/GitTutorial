@@ -28,6 +28,7 @@ stash@{0}: On master: simple changes 02
 stash@{1}: On master: simple changes 01
 
 git stash show stash@{0} // will show changes in that stash
+git stash show -p stash@{0} // verbose changes
 
 git stash apply stash@{1} // apply this stash
 
