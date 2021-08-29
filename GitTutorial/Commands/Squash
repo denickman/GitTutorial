@@ -7,9 +7,9 @@ OR
 git rebase -i HEAD~<number of commits down from your HEAD>
 3 press Ctrl + \ (this will activate ‘search and replace’ functionality
 4 Search (to replace): ← input ‘pick’ without quotes, press Enter
-5 Replace with ← input ‘s’ without quotes, press Enter
+5 Replace with ← input ‘f’ without quotes, press Enter // s - before
 6 Press a
-7 Change ‘s’ for the very first commit to ‘p’
+7 Change ‘f’ for the very first commit to ‘p’ // s - before
 8 Ctrl + x
 9 Press y
 10 Enter
