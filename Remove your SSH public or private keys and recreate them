@@ -1,0 +1,47 @@
+#How to remove your SSH public/private keys, recreate them, and then add your newly created public key to the servers and online services you use.
+
+#Remove your SSH public/private keys:
+rm ~/.ssh/id_rsa*
+
+#Recreate the keypair, choosing a new passphrase:
+ssh-keygen -t rsa -f ~/.ssh/id_rsa
+
+#Add the newly created private key to your OS X Keychain to store the passphrase and manage unlocking it automatically:
+ssh-add -K ~/.ssh/id_rsa
+
+#Copy the public key to the OS X clipboard for adding to web services like GitHub, etc.
+cat ~/.ssh/id_rsa.pub | pbcopy
+
+#Add your newly created public key to the ~/.ssh/authorized_keys file of the remote server. Be sure to ensure the correct permissions of both the remote ~/.ssh folder (700) and ~/.ssh/authorized_keys (600). You may want to investigate using ssh-copy-id to ease this process.
+
+
+How to push existed local repo
+
+Step 1 — Create a new GitHub Repo
+
+Sign in to GitHub and create a new empty repo. You can choose to either initialize a README or not. It doesn’t really matter because we’re just going to override everything in this remote repository anyway.
+
+
+Step 2 — Initialize Git in the project folder
+
+From your terminal, run the following commands after navigating to the folder you would like to add.
+
+Step 3 - Initialize the Git Repo
+
+Make sure you are in the root directory of the project you want to push to GitHub and run
+
+
+
+
+git init
+git add -A
+git commit -m 'Added my project'
+git remote add origin git@github.com:sammy/my-new-project.git
+git push -u -f origin main
+
+
+Or 
+
+git remote add origin git@github.com:denickman/SwiftUI-Africa.git
+git branch -M main
+git push -u origin main
